@@ -1,1 +1,7 @@
-;;;;;
+caso o maxValue;i;i <= maxValue;i % 2 !== 0 && i % 5 == 0;i % 2 !== 0;i % 5 == 0;i % 2 === 0;result.push
+seja igual a 5;1;true;true && false, não irá funcionar;true;false;false;Snap
+-;2;true;false && false, vai par o próximo if;false;false;true;2
+-;3;true;true && false;true;false;false;Snap
+-;4;true;false && false, vai par o próximo if;false;false;true;4
+-;5;true;true && true, para aqui por conta do continue;true;true;false;SnapCrackle
+-;6;false;não realiza mais pois i não é <= maxValue;-;-;-;-
