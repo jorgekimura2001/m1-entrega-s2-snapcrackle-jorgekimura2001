@@ -9,8 +9,8 @@ function snapCrackle(maxValue) {
     for(let i = 1; i <= maxValue; i++) {
         if (i % 2 !== 0 && i % 5 == 0) { // fluxo do javascript de cima à baixo 
             result.push("SnapCrackle")   // cuidar para que as condicionais não interfiram uma na outra
-            continue
-        }
+            continue                     // para parar o fluxo do javascript quando já for verdadeira
+        }                                // && aceita apenas 2 valores true ou 2 valores false, não aceita true && false 
         if (i % 2 !== 0) { 
             result.push("Snap")
             continue
